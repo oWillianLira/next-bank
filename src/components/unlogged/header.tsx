@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function UnloggedHeader() {
+export default function Header() {
   return (
     <header className="flex items-center justify-between px-6 py-4 bg-background shadow">
       <Link href="/" className="text-2xl font-semibold text-cta-primary hover:font-bold transition">
@@ -8,7 +8,7 @@ export default function UnloggedHeader() {
       </Link>
       <nav className="flex items-center gap-4">
         <Link href="/login" className="font-medium text-cta-primary-hover hover:text-cta-primary transition">
-          My account
+          Login
         </Link>
         <Link
           href="/signup"

@@ -19,9 +19,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"],
-      "@components/*": ["./src/app/components/*"],
-      "@pages/*": ["./src/app/pages/*"]
+      "@components/*": ["./src/components/*"],
+      "@unlogged/*": ["./src/components/unlogged/*"],
+      "@logged/*": ["./src/components/logged/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
